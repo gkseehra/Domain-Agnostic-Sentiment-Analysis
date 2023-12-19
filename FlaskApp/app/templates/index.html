@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+</head>
+
+<body>
+  <div class="wrapper-container">
+    <div class="top-container">
+      <img src="/static/sa.jpeg" />
+    </div>
+    <div class="bottom-container">
+      <header>
+        <h1>Get sentiment predictions! </h1>
+        <form id="sa-form" action="predict" method="POST">
+          <div>
+            <div class="sa-data-input">
+              <textarea id="sa-data-input-sub" name="sa-data-input-sub" placeholder="Enter your text here" type="text"></textarea>
+            </div>
+          </div>
+          <div class="predict-btn">
+            <div class="set">
+              <button type="submit" id="next">Predict</button>
+            </div>
+          </div>
+        </form>
+      </header>
+    </div>
+  </div>
+</body>
+
+</html>

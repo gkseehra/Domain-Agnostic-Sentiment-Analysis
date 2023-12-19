@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/result.css">
+</head>
+
+<body>
+    <div class="wrapper-container">
+        <div class="top-container">
+            <img src="/static/sa.jpeg" />
+        </div>
+        <div class="bottom-container">
+            <header>
+                <h1>Sentiment prediction</h1>
+                <div class="set">
+                    <div class="prediction-desc-wrapper">
+                        <!-- <p class="prediction-label">Prediction</p> -->
+                        <p class="prediction-desc">
+                            
+                            {% if output=='POSITIVE' %}
+                            Positive!!
+                            {% else %}
+                            Negative!!
+                            {% endif %}
+
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <div class="predict-btn">
+                <div class="set">
+                    <button onclick="redirectToNewPage()" id="next">Try another text</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function redirectToNewPage() {
+        window.location.href = "/";
+    }
+</script>
+
+</html>

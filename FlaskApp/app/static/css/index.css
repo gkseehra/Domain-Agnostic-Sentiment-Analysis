@@ -1,0 +1,145 @@
+/* 
+REFERENCES:
+  1. https://codepen.io/rickyeckhardt/pen/oNXeoZp
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-blend-mode: multiply;
+  background-image: url('/static/green.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgba(0, 0, 0, .8);
+  display: grid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100vh;
+  justify-items: center;
+  weight: 100vw;
+}
+
+.wrapper-container {
+  display: grid;
+  max-width: 900px;
+  max-height: 800px;
+}
+
+.top-container {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 500px;
+}
+
+.top-container h1 {
+  color: rgba(0, 0, 0, .8);
+  display: inline-block;
+  font-size: 24px;
+}
+
+.top-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-container {
+  background: #ffffffa1;
+  display: grid;
+  grid-template-areas: "." ".";
+  width: 500px;
+}
+
+.bottom-container h1:nth-of-type(1) {
+  color: rgba(0, 0, 0, .8);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bottom-container .set {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.bottom-container header {
+  padding: 40px;
+}
+
+.bottom-container .sa-photo {
+  width: 410px;
+  align-items: center;
+  display: grid;
+  grid-template-areas: ". .";
+}
+
+.bottom-container .sa-photo button {
+  border: none;
+  border-radius: 50%;
+  height: 38px;
+  margin-right: 10px;
+  outline: none;
+  width: 38px;
+}
+
+.bottom-container .sa-photo button i {
+  color: rgba(0, 0, 0, .8);
+  font-size: 16px;
+}
+
+
+.bottom-container .predict-btn button {
+  border: 1px solid rgba(0, 0, 0, .2);
+  height: 38px;
+  line-height: 38px;
+  width: 100px;
+  border-radius: 19px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container .predict-btn #back {
+  background: #fff;
+  transition: 0.2s all ease-in-out;
+}
+
+.bottom-container .predict-btn #back:hover {
+  background: #171a2b;
+  color: white;
+}
+
+.bottom-container select:hover {
+  cursor: pointer;
+}
+
+.bottom-container .predict-btn #next {
+  background: #016761;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.bottom-container .predict-btn #next:hover {
+  background: #171a2b;
+  cursor: pointer;
+}
+
+.sa-data-input{
+  overflow-y: scroll;
+}
+
+textarea {
+  width: 410px;
+  height: 200px;
+  resize: vertical;
+  overflow-y: auto;
+  padding: 4px;
+}
