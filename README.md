@@ -1,3 +1,4 @@
+# Domain Agnostic Sentiment Analysis
 ## Overview
 "Domain-Agnostic Sentiment Analysis" is a project aimed at developing a versatile sentiment analysis model capable of accurately predicting sentiments across various domains. Initially utilizing a dataset of Amazon reviews, the project's ultimate goal is to integrate diverse datasets, enhancing its domain-agnostic capabilities. The project encompasses a detailed data processing pipeline, model comparison, hyperparameter tuning, and a user-friendly Flask web application for real-time sentiment prediction.
 ## Data Source
@@ -38,5 +39,8 @@ After rigorous testing and evaluation, the best performing model is identified. 
 - To use the web application, run the Flask server using `flask run` and navigate to the provided local URL.
 - Input the text for sentiment analysis in the UI and submit to receive the sentiment prediction.
 ### UI Screenshots
+<img width="508" alt="Screen Shot 2023-12-19 at 6 45 38 PM" src="https://github.com/gkseehra/Domain-Agnostic-Sentiment-Analysis/assets/35463826/66775f47-c5ce-467e-9054-0abbb6c30d54">
+<img width="498" alt="Screen Shot 2023-12-19 at 6 46 04 PM" src="https://github.com/gkseehra/Domain-Agnostic-Sentiment-Analysis/assets/35463826/388ffc6f-92e0-4d60-84e4-fce7c115f25e">
+
 ## Contact
-For any queries or suggestions, please reach out to gurleenkseehra@gmail.com.
+For any queries or suggestions, please reach out to gurleenkseehra@gmail.com
