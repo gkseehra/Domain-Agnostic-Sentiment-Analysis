@@ -4,8 +4,6 @@
 ## Data Source
 The initial phase uses the Amazon Reviews dataset from Kaggle: [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews). This dataset comprises Amazon reviews labeled as positive or negative. Future iterations will incorporate datasets from multiple domains to strengthen the model's domain-agnostic attribute.
 ## Key Features
-
-Project Readme.md
 - **Data Pre-processing/Cleaning:** Initial steps include cleaning and preparing the data for analysis.
 - **Feature Engineering:** Techniques like TF-IDF (Term Frequency-Inverse Document Frequency) and Count Vectorization are employed to extract features from the text data.
 - **Model Training and Comparison:** The project explores a range of machine learning models:
