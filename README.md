@@ -40,5 +40,5 @@ After rigorous testing and evaluation, the best performing model is identified. 
 <img width="508" alt="Screen Shot 2023-12-19 at 6 45 38 PM" src="https://github.com/gkseehra/Domain-Agnostic-Sentiment-Analysis/assets/35463826/66775f47-c5ce-467e-9054-0abbb6c30d54">
 <img width="498" alt="Screen Shot 2023-12-19 at 6 46 04 PM" src="https://github.com/gkseehra/Domain-Agnostic-Sentiment-Analysis/assets/35463826/388ffc6f-92e0-4d60-84e4-fce7c115f25e">
 
-## Contact
-For any queries or suggestions, please reach out to gurleenkseehra@gmail.com
+## Author
+- Gurleen Kaur (gurleenkseehra@gmail.com).
